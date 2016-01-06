@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato: 300, 700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300,700);
 
+
+/*DEFAULT STYLES*/
+/*======================================*/
 body {
   /*padding-top: 50px;*/
   /*this is so the fixed navbar doesn't cut content*/
@@ -17,12 +20,9 @@ h1,h2,h3,h4,h5,h6 {
   margin:0;
 }
 
-/*img {
-	max-width: 200px;
-}*/
 
 /*Header Navigation*/
-
+/*===========================================*/
 .navbar {
   border-radius: 0;
   border: 0;
@@ -66,6 +66,7 @@ header .navbar-default .navbar-nav .active a:hover {
 }
 
 /*Navbar Brand*/
+/*=================================================*/
 header .navbar-brand {
   background: url(../images/infinity_03.png);
   background-repeat: no-repeat;
@@ -91,6 +92,7 @@ header .navbar-brand span.subhead {
 }
 
 /*nav inbody*/
+/*===========================================*/
 header .inbody {
   /*background: rgba(156, 167, 191, .8);*/
 }
@@ -123,6 +125,7 @@ header .inbody .navbar-brand span.subhead {
 }
 
 /*Navbar Toggle*/
+/*=========================================*/
 
 header .navbar-toggle {
   background-color: #279182;
@@ -141,13 +144,6 @@ and (max-width: 768px) {
 
 
 
-#featured .item {
-  /*background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 100%;
-  height: 100%;*/
-}
 
 /*Page*/
 .page {
@@ -161,10 +157,127 @@ and (max-width: 768px) {
   margin-bottom: 30px;
 }
 
+.infinity {
+    width: 100%;
+    position: center center
+  }
 
 
+/*LANDING PAGE*/
+/*=========================*/
+#landing #main-title {
+  font-size: 40px;
+}
 
-/*Page -- Services*/
+#landing #main-logo {
+  width: 200px;
+}
+
+#landing p {
+  line-height: .9em;
+}
+#landing h2 {
+  margin-bottom: 10px;
+}
+
+#landing .chevron img {
+  padding-top: 30px;
+}
+
+
+.fullheight {
+  background-image: url('../images/whiteboard.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.top-logo {
+  background-repeat: no-repeat;
+}
+
+.landing-content {
+  color: white;
+}
+
+.accentuator {
+  padding-top: 5%;
+}
+
+.tellme {
+  padding-top: 5%;
+}
+
+.item {
+  padding-top: 10%;
+}
+
+
+/*ABOUT PAGE*/
+/*===========================*/
+
+#about {
+  background-image: url('../images/stadium.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: black;
+
+}
+
+#about .about-text {
+  padding-top: 30%;
+  color: black;
+  line-height: .9em
+}
+
+#about .content {
+  padding-top: 4%;
+
+}
+.about-text span {
+  color: white;
+}
+
+/*PHILOSOPHY PAGE*/
+/*============================*/
+
+#philosophy {
+  background-image: url('../images/milk-fade.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
+
+#philosophy h2 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#philosophy .content {
+  padding-top: 4%;
+}
+
+#philosophy h1 {
+  text-align: center;
+
+}
+
+#philosophy p {
+  text-indent: 20px;
+  line-height: .8em;
+}
+
+#philosophy .philosophy-list {
+  padding-top: 50px;
+  margin-left: 30px;
+}
+
+/*SERVICES PAGE*/
+/*=======================================*/
+
 .service {
   margin: 20px 0;
   text-align: center;
@@ -191,6 +304,8 @@ and (max-width: 768px) {
 }
 
 /*Page -- Staff*/
+
+
 #staff {
   background-color: #4e78cf ;
   
@@ -222,6 +337,9 @@ and (max-width: 768px) {
   padding-bottom: 10px;
 }
 
+/*TEAM*/
+/*===============================*/
+
 #team {
   background-image: url('../images/wood.jpg');
   background-repeat: no-repeat;
@@ -242,6 +360,19 @@ and (max-width: 768px) {
   font-weight: 400;
 }
 
+#team h1 {
+  padding-top: 10px;
+}
+
+.social {
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 20%;
+}
+
+/*NETWORK*/
+/*=============================*/
 
 #network {
   background-color: #ff8300
@@ -281,6 +412,24 @@ and (max-width: 768px) {
 }
 
 
+.network-image {
+    width: 100%;
+}
+
+/*CLIENTS*/
+/*=====================================*/
+#clients {
+    background-image: url('../images/spark.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+
+
+/*CONTACT PAGE*/
+/*===================================*/
+
 #contact {
     background-image: url('../images/bridge.jpg');
     background-repeat: no-repeat;
@@ -299,10 +448,29 @@ and (max-width: 768px) {
     margin-bottom: 5px;
   }
 
+  #contact {
+    background-image: url('../images/contact.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+
+  #contact h2 {
+    margin-top: 5px;
+  }
+
+
+  #contact #getstarted {
+    padding-top: 15px;
+  }
 
 
 
-/*Footer*/
+
+/*FOOTER*/
+/*=========================*/
 
 footer .navbar-default {
   background: transparent;
@@ -349,179 +517,20 @@ footer .navbar-nav>li a {
   color: #EEC856 !important;
 } 
 
-
-.fullheight {
-  background-image: url('../images/whiteboard.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-#philosophy {
-  background-image: url('../images/milk-fade.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  color: white;
-}
-
-#philosophy h2 {
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-#philosophy .content {
-  padding-top: 4%;
-}
-
-#philosophy h1 {
-  text-align: center;
-
-}
-
-#philosophy p {
-  text-indent: 20px;
-  line-height: .8em;
-}
-
-#philosophy .philosophy-list {
-  padding-top: 50px;
-  margin-left: 30px;
-}
-
-
-
-
-#about {
-  background-image: url('../images/stadium.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  color: black;
-
-}
-
-#about .about-text {
-  padding-top: 30%;
-  color: black;
-  line-height: .9em
-}
-
-#about .content {
-  padding-top: 4%;
-
-}
-.about-text span {
-  color: white;
-}
-
-
-
-#team h1 {
-  padding-top: 10px;
-}
-
-.landing-content {
-  /*position: relative;
-  top: 35%;*/
-}
-
-#featured {
-  color: white;
-}
-
-.social {
-  padding-top: 20px;
-  padding-left: 0px;
-  padding-right: 0px;
-  width: 20%;
-}
-
-
-
-  .infinity {
-    width: 100%;
-    position: center center
-  }
-
-  #clients {
-    background-image: url('../images/spark.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }
-
-  #contact {
-    background-image: url('../images/contact.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    color: white;
-    text-align: center;
-  }
-
-  #contact h2 {
-    margin-top: 5px;
-  }
-
-
-
-  #contact #getstarted {
-    padding-top: 15px;
-  }
-
-.item {
-  padding-top: 10%;
-}
-
-.top-logo {
-  background-repeat: no-repeat;
-}
-
-.landing-content {
-  color: white;
-}
-
-.accentuator {
-  padding-top: 5%;
-}
-
-.tellme {
-  padding-top: 5%;
-}
-
-
-
-.network-image {
-    width: 100%;
-}
-
-#landing #main-title {
-  font-size: 40px;
-}
-
-#landing #main-logo {
-  width: 200px;
-}
-
-#landing p {
-  line-height: .9em;
-}
-#landing h2 {
-  margin-bottom: 10px;
-}
-
-#landing .chevron img {
-  padding-top: 30px;
-}
-
 .social-footer {
   width: 40px;
   padding-top: 10px;
 }
 
 
+
+
+
+/*MEDIA QUERIES*/
+/*==============================*/
+
 @media(max-width:1000px) {
+
   /*#staff.page {
     height: 1350px;
   }*/
@@ -531,7 +540,6 @@ footer .navbar-nav>li a {
     }*/
 
   
-
 
   }
 
@@ -547,7 +555,7 @@ footer .navbar-nav>li a {
 
 
       #philosophy h2 {
-        font-size: 10px;
+        font-size: 18px;
       }
 
       #philosophy .content {
@@ -555,14 +563,18 @@ footer .navbar-nav>li a {
         position: relative
       }
 
+      #philosophy img {
+        width: 90px;
+      }
       
 
       #philosophy p {
         font-size: 15px;
+        line-height: 1em;
       }
 
       #philosophy .who-mobile {
-        padding-top: 40px;
+        padding-top: 10px;
       }
       .landing-content {
     padding-top: 30%;
@@ -572,32 +584,7 @@ footer .navbar-nav>li a {
     padding-top: 60%;
 
   }
-  #staff p {
-    font-size: 14px;
-    line-height: .9em;
-  }
-
-  #staff .service-box img {
-    width: 70px;
-  }
-
-  #staff h2 {
-    font-size: 18px;
-    margin-bottom : 5px;
-    padding-bottom: 0px;
-  }
-
-  #staff .who-mobile h3 {
-    font-size: 20px;
-  }
-
-  #staff .chevron {
-    width: 40px;
-  }
-
-  #staff h3 {
-    font-size: 16px;
-  }
+  
 
   #team .headshot { 
     width: 80px;
@@ -627,19 +614,6 @@ footer .navbar-nav>li a {
     padding-top: 0px;
   }
 
-  #network br {
-    display: none;
-  }
-
-  #network .how {
-    padding-top: 10px;
-    font-size: 16px;
-  }
-
-  #network .chevron {
-    width: 40px;
-    padding-bottom: 20px;
-  }
 
   /*#philosopy .content {
     height: 800px;
@@ -649,4 +623,23 @@ footer .navbar-nav>li a {
   padding-top: 20%;
 }
 
+}
+
+/*extra?*/
+
+#featured .item {
+  /*background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;*/
+}
+
+.landing-content {
+  /*position: relative;
+  top: 35%;*/
+}
+
+#featured {
+  color: white;
 }
