@@ -621,6 +621,9 @@ footer .navbar-nav>li a {
         padding-top: 15%;
         position: relative
       }
+      #philosophy .philosophy-list {
+        padding-top: 40px;
+      }
 
       #philosophy p {
         font-size: 15px;
